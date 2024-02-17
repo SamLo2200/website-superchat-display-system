@@ -1,0 +1,63 @@
+:root {
+  --FontFams: "Gen Jyuu Gothic", monoscope;
+}
+
+p{
+    font-family: var(--FontFams);
+}
+
+body{
+    background-color: black;
+}
+
+.superchat-wrapper{
+    background-color: rgb(255, 255, 255);
+    border-radius: 23px;
+    width: fit-content;
+    min-width: 300px;
+    max-width: 350px;
+    min-height: 20px;
+    padding: 15px 11px 15px 10px;
+    margin-bottom: 20px;
+
+    animation: fadeIn 0.25s ease-in-out forwards;
+    
+}
+
+.superchat-info{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 25px 0px 25px;
+    margin-top: -20px;
+    margin-bottom: -9px;
+}
+
+.name{
+    font-weight: 500;
+
+}
+
+.amount{
+    font-weight: 500;
+   
+}
+
+.content {
+    display: flex;
+    width: 100%;
+    background-color: #F1F2F2;
+    border-radius: 23px;
+}
+
+.message{
+    padding: 0px 30px 0px 30px;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
