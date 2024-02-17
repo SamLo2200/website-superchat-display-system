@@ -7,7 +7,7 @@ p{
 }
 
 body{
-    background-color: black;
+    background-color: transparent;
 }
 
 .superchat-wrapper{
@@ -19,6 +19,8 @@ body{
     min-height: 20px;
     padding: 15px 11px 15px 10px;
     margin-bottom: 20px;
+
+    box-shadow: 7pt 11pt 30pt rgba(0, 0, 0, 0.38); /* Opacity: 38%, X-offset: 7pt, Y-offset: 11pt, Blur: 30pt, Color: black */
 
     animation: fadeIn 0.25s ease-in-out forwards;
     
